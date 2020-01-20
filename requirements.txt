@@ -1,0 +1,5 @@
+flask
+flask_sqlalchemy
+git+git://github.com/dskrypa/requests_client
+sqlalchemy
+werkzeug
