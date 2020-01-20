@@ -1,6 +1,6 @@
 
 from pathlib import Path
-from setuptools import setup, find_packages
+from setuptools import setup
 
 project_root = Path(__file__).resolve().parent
 
@@ -19,7 +19,7 @@ setup(
     description='Doc Store POC',
     long_description=long_description,
     url='https://github.com/dskrypa/doc_store_poc',
-    packages=find_packages('lib'),
+    packages=['lib/doc_store'],
     classifiers=[
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
